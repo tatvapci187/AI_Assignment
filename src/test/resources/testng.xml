@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationTestSuite" verbose="5" parallel="methods">
+		
+	<test name="GoogleSearch" thread-count="1">
+		<classes>
+		<class name="AutomationTestFunctions.TC_OpenURL"></class>
+		<class name="AutomationTestFunctions.TC_GoogleSearch"></class>
+		<class name="AutomationTestFunctions.TC_GoogleSearchList"></class>
+		</classes>
+	</test>
+</suite>
